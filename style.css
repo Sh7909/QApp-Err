@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    width:90rem;
+    border:2px solid black;
+    height:3rem;
+    background-color: black;
+    color:white;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+li{
+    float: left;
+    padding-left:5rem;
+    list-style-type: none;
+}
+ul{
+    grid-row:30rem
+}
+a{
+    color: inherit;         
+     /* will cause the element to take on the colour of its parent */
+     }
+
+#quotes{
+    font-size:4rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:purple;
+   
+}
+#big_colon1,#big_colon2{
+    font-size:7rem;
+}
+#ui{
+    text-align: center;
+    margin-top:16rem;
+}
+#buttons{
+    display: flex;
+    grid-gap:3rem;
+    padding-left:37.4rem;
+}
+body{
+    background-color:rgb(238, 238, 238);
+}
+button{
+    background-color: white;
+    color:purple;
+    width:6rem;
+    height:3rem;
+    border-radius:0.5rem;
+}
+button:hover{
+    background-color:purple;
+    color:white;
+}
+#register{
+    padding-left:9rem;
+    padding-top:5rem;
+}
+#form_details{
+    padding-left:9rem;
+    padding-top:1rem;
+}
+#email_text,#password_text{
+    color:rgb(110, 104, 104);
+}
+#create_quote{
+    padding-left:20rem;
+    padding-top:5rem;
+}
+#post{
+    background-color: white;
+    border-color:white;
+}
+#quote_error{
+    display: none;
+    color:red;
+}
+  
+#cards_container{
+    width:20rem;
+    height:20rem;
+    border:2px solid black;
+    background-color:  aquamarine;
+    color:red;
+}
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:9%;
+    color: white;
+}
+
+.post {
+    width: 20rem;
+    height: 23rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius:0.5rem;
+    padding:1rem;
+    padding-bottom: 0;
+}
+
+#time{
+    margin-top:2%;
+    font-size:1.2rem; 
+}
+#show_date{
+    font-size:1.2rem;
+    color:white;
+} 
+
+#show_contents{
+    font-size:1rem;
+    margin-bottom: 3rem;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#post_footer{
+    display: flex;
+    width: 92%;
+    justify-content: space-between
+    
+}
+#time_container{
+    display: flex;
+    width: 60%;
+    
+    
+}
+#like_container{
+    display: flex;
+    width: 10%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
